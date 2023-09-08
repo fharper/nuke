@@ -14,6 +14,7 @@ type Conf struct {
 	IgnoreUpdates      bool     `yaml:"ignoredUpdates"`
 	IgnoredApps        []string `yaml:"ignoredApps"`
 	IgnoredRunningFrom bool     `yaml:"ignoredRunningFrom"`
+	IncludeMenubarApps bool     `yaml:"includeMenubarApps"`
 }
 
 // Check if the config exists
